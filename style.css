@@ -1,0 +1,179 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.nevbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1.2rem;
+    margin: 1rem;
+   
+}
+#hamburger{
+    
+    height: 3.37rem;
+    width: 3.37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#logo{
+    margin-right: 4rem;
+}
+#logo img{
+    height: 3rem;
+    width: auto;
+}
+#search-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#search-box input{
+    height: 3rem;
+    width: 35rem;
+}
+#search-text{
+    font-size: 1.3rem;
+    
+}
+
+#search-btn{
+    border: .1rem solid black;
+    height: 3.37rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    
+}
+#search-btn :hover{
+    border: .1rem solid black;
+    height: 3.37rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 204, 204);
+    
+}
+#search-voice{
+    border-radius: 100%;
+    height: 3.37rem;
+    width: 3.37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    
+}
+#notification{
+    border-radius: 100%;
+    height: 3.37rem;
+    width: 3.37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    
+}
+#profile{
+    border-radius: 100%;
+    height: 3.37rem;
+    width: 3.37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,242,242);
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+   
+}
+.sidebar{
+    display: inline;
+    width: 100%;
+    margin-left: .1rem;
+    position: sticky;
+    
+}
+.sidebar a{
+    font-size: 1.2rem;
+}
+.sidebarsameclass{
+    display: flex;
+    margin: 1.5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    
+}
+.sidebarsameclass img{
+    
+    height: 1.5rem;
+    width: 1.5rem;
+    
+}
+.sidebarimgsameclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    
+}
+.sidebar h3{
+    display: block;
+    text-align: center;
+}
+.subscrivedchanellist img{
+    border-radius: 50%;
+}
+.small-sidebar{
+    width: 50%;
+    
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    row-gap: 5rem;
+    
+
+}
+.thumnail img{
+    height: 15rem;
+    width: 25rem;
+}
+.chanellogo img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+.chanellogoandname{
+    display: flex;
+    
+}
+.chanelnamenadviewsandtime{
+    height: 6rem;
+     
+    
+}
+.viewsandtime{
+    display: flex;
+    
+    
+    
+}
+.chanelname{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
