@@ -14,11 +14,11 @@ body{
     width: auto;
     margin: 1rem;
     border-radius: .2%;
-    border: .2rem solid rgb(255, 0, 149);
+    
 }
 .videoplayercontainer{
     display: flex;
-    border: .2rem solid rgb(0, 110, 255);
+   
 }
 .suggesion{
     display: flex;
@@ -29,7 +29,7 @@ body{
     width: 100%;
     overflow:auto;
     
-    border: .2rem solid red;
+    
 }
 .likedislikeshare{
     display: flex;
