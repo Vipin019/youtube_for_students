@@ -9,7 +9,7 @@ html{
 body{
     margin: 0rem;
     padding: 0rem;
-    border: .2rem solid rgb(64, 165, 106);
+   
 }
 a{
     text-decoration: none;
@@ -24,7 +24,7 @@ a{
     opacity: 95%;
     position: sticky;
     top: 0rem;
-    border: .2rem solid red;
+    
    
 }
 .hamburger{
@@ -42,14 +42,14 @@ a{
     display: flex;
     align-items: center;
     margin-right: 4rem;
-    border: .2rem solid rgb(124, 33, 33);
+    
     
 }
 #logo img{
     height: 2.5rem;
     
     width: auto;
-    border: .2rem solid rgb(0, 119, 255);
+    
 }
 #search-box{
     display: flex;
@@ -66,7 +66,7 @@ a{
 }
 
 .search-btn{
-    border: .1rem solid black;
+   
     height: 3rem;
     width: 5rem;
     display: flex;
@@ -77,7 +77,7 @@ a{
 }
 
 #search-btn :hover{
-    border: .1rem solid black;
+    
     height: 3rem;
     width: 5rem;
     display: flex;
@@ -126,7 +126,7 @@ a{
 }
 .container{
     
-    border: .2rem solid rgb(165, 146, 64);
+    
    
 }
 .sidebar{
@@ -137,7 +137,6 @@ a{
     height: 100%;
     overflow: scroll;
     
-    border: .2rem solid rgb(64, 165, 106);
     
     
 }
@@ -178,7 +177,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: .2rem solid rgb(64, 116, 165);
+    
     
 }
 .small-sidebar .sidebarsameclass{
@@ -187,7 +186,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: .2rem solid rgb(101, 165, 64);
+   
     
 }
 .small-sidebar .sidebarimgsameclass{
@@ -196,7 +195,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: .2rem solid rgb(64, 165, 135);
+    
 
     
 }
@@ -235,7 +234,7 @@ a{
     grid-template-columns: 1fr 1fr 1fr;
     
     row-gap: 5rem;
-    border: .2rem solid rgb(165, 64, 64);
+    
 
 }
 .large-main{
