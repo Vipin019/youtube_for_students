@@ -1,0 +1,97 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+html{
+    font-size: 100%;
+}
+body{
+    margin: 0rem;
+    padding: 0rem;
+}
+.videoplaying{
+    height: 32rem;
+    width: auto;
+    margin: 1rem;
+    border-radius: .2%;
+    border: .2rem solid rgb(255, 0, 149);
+}
+.videoplayercontainer{
+    display: flex;
+    border: .2rem solid rgb(0, 110, 255);
+}
+.suggesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    overflow:auto;
+    
+    border: .2rem solid red;
+}
+.likedislikeshare{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.likedislikeshare img{
+    height: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.comments{
+    margin: 2rem;
+}
+.userphotoandname{
+    display: flex;
+    
+    align-items: center;
+}
+.userphoto img{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+@media(max-width:998px){
+    html{
+        font-size:55%;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
+@media(max-width:558px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:358px){
+    html{
+        font-size: 25%;
+    }
+}
+@media(max-width:258px){
+    html{
+        font-size: 15%;
+    }
+}
+@media(max-width:158px){
+    html{
+        font-size: 10%;
+    }
+}
+@media(max-width:100px){
+    html{
+        font-size: 7%;
+    }
+}
+@media(max-width:75px){
+    html{
+        font-size: 5%;
+    }
+}
